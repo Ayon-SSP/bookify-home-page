@@ -547,6 +547,15 @@ h5.course-title:hover {
   color: var(--primary-color);
 }
 
+.book-card {
+  height: 100%; /* Set the height of the book-card to fill the container */
+  width: 100%; /* Set the width of the book-card to fill the container */
+}
+
+.book-card img {
+  height: auto; /* Set the height of the images */
+  width: 400px; /* Maintain aspect ratio */
+}
 
 /*----- testimonial Section Style -------------------------*/
 .swiper-pagination {
@@ -638,6 +647,15 @@ h5.course-title:hover {
   cursor: pointer;
 }
 
+/* .author-card {
+  height: 100%; 
+  width: 100%; 
+}
+
+.author-card img {
+  height: auto; 
+  width: auto; 
+} */
 
 /*----- register Section Style -------------------------*/
 #register {
