@@ -621,6 +621,11 @@ h5.course-title:hover {
   transition: 0.6s ease-out;
 }
 
+/* Removed by @Ayon-SSP */
+/* #img-logo{
+  height: 80px;
+} */ 
+
 .zoom-effect:hover img {
   -webkit-transform: scale(1.1, 1.1);
   -moz-transform: scale(1.1, 1.1);
