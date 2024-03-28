@@ -573,7 +573,7 @@ h5.course-title:hover {
 }
 
 
-/*----- teacher Section Style -------------------------*/
+/*----- Authors Section Style -------------------------*/
 .team-member ul.social-links {
   top: 0;
 }
@@ -652,15 +652,16 @@ h5.course-title:hover {
   cursor: pointer;
 }
 
-/* .author-card {
+.author-card {
   height: 100%; 
   width: 100%; 
 }
 
 .author-card img {
-  height: auto; 
-  width: auto; 
-} */
+  height: 100%; 
+  width: 100%; 
+  overflow: hidden;
+}
 
 /*----- register Section Style -------------------------*/
 #register {
