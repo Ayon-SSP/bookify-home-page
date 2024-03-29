@@ -386,7 +386,33 @@ a {
   height: 60px;
 }
 
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
 
+.animate-float {
+  animation: floatUpDown 3s ease-in-out infinite;
+}
+
+
+
+@keyframes floatUpDownRotate {
+  0%, 100% {
+    transform: translateY(0) rotate(0);
+  }
+  50% {
+    transform: translateY(-10px) rotate(3deg);
+  }
+}
+
+.animate-float-rotate {
+  animation: floatUpDownRotate 3s ease-in-out infinite;
+}
 /*----- Nav Section Style -------------------------*/
 /* nav bar style  */
 .navbar-nav .nav-link.active,
