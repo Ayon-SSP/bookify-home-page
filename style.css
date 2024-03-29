@@ -468,6 +468,10 @@ a {
   }
 }
 
+#about-img {
+  height: 550px;
+}
+
 
 /*----- catergory Section Style -------------------------*/
 .category-paragraph {
